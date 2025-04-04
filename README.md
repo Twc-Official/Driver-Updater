@@ -60,47 +60,42 @@
 
 <h2 align="center">🛠️│ Running This Program Steps</h2>
 
-<div align="center">
+<p align="center">
+  This process may seem a bit technical, so follow each step carefully.
 
-  <h3>📌 Step 1: Open PowerShell as Administrator</h3>
-  <p>
-    Right-click the <strong>Start Menu</strong>, select <strong>"Windows PowerShell (Admin)"</strong> or search for "PowerShell", then right-click and choose <strong>"Run as administrator"</strong>.
-  </p>
+  ### 📌 Step 1: Open PowerShell as Administrator
 
-  <h3>📌 Step 2: Check Your Execution Policy</h3>
-  <p>Run the following command in PowerShell:</p>
+  Right-click the **Start Menu**, select <strong>"Windows PowerShell (Admin)"</strong> or search for "PowerShell", then right-click and choose <strong>"Run as administrator"</strong>.
 
-  <pre>
-  <code>
-  Get-ExecutionPolicy
-  </code>
-  </pre>
+  ### 📌 Step 2: Check Your Execution Policy
 
-  <p>If it returns <strong>Restricted</strong>, proceed to the next step. If not, go to step 4.</p>
+Run the following command in PowerShell:
 
-  <h3>📌 Step 3: Temporarily Allow Script Execution</h3>
-  <p>Run this command to allow scripts during your current session:</p>
+``` PowerShell
+Get-ExecutionPolicy
+```
+If it returns Restricted, proceed to the next step. If not, go to step 4.
 
-  <pre>
-  <code>
-  Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-  </code>
-  </pre>
+### 📌 Step 3: Temporarily Allow Script Execution
 
-  <p>Remember to Enter "Y."</p>
+Run this command to allow scripts during your current session:
 
-  <h3>📌 Step 4: Run the Script</h3>
-  <p>Assuming your script is in your Downloads folder and named <strong>driver_updater.ps1</strong>, run:</p>
+``` PowerShell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
 
-  <pre>
-  <code>
-  & "$env:USERPROFILE\Downloads\driver_updater.ps1"
-  </code>
-  </pre>
+Remember to Enter "Y."
 
-  <p><strong>Well done! Now, the code should work as intended. Enjoy! 🎉</strong></p>
+### 📌 Step 4: Run the Script
+Assuming your script is in your Downloads folder and named driver_updater.ps1, run:
+``` PowerShell
+& "$env:USERPROFILE\Downloads\driver_updater.ps1"
+```
 
-</div>
+<strong> Well done! Now, the code should work as intended. Enjoy! </strong>
+
+</p>
+
 
 
 <h2 align="center">📌│ Disclaimer</h2>
