@@ -5,7 +5,6 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/downloads/Twc-Official/Driver-Updater/total?color=purple&label=downloads&logo=github&style=flat-square&labelColor=black" alt="downloads">
   <img src="https://img.shields.io/github/stars/Twc-Official/Driver-Updater?color=purple&label=stars&logo=github&style=flat-square&labelColor=black" alt="stars">
   <img src="https://img.shields.io/github/issues/Twc-Official/Driver-Updater?color=purple&label=issues&logo=github&style=flat-square&labelColor=black" alt="issues">
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="license">
@@ -28,6 +27,7 @@
 <h2 align="center">📸│ Project Screenshots</h2>
 
 <p align="center">
+  <img src="https://cdn.tagbox.io/assets/67f003efb6c7200011b116b8/a4d7c364-8549-4247-bf1e-d9915e4ac372---image_2025-04-04_182322712.png" alt="screenshot-1" width="400">
   <img src="https://cdn.tagbox.io/assets/67f003efb6c7200011b116b8/7db94134-af57-4809-8dd2-599f4059d44d---screenshot-2025-04-04-170750.png" alt="screenshot-1" width="400">
   <img src="https://cdn.tagbox.io/assets/67f003efb6c7200011b116b8/c947b9fc-ef3a-44f4-accb-f6da15bb3ca9---image_2025-04-04_172620638.png" alt="screenshot-2" width="400">
 </p>
@@ -46,6 +46,20 @@
   <li>🧠 Lightweight, clean code — no bloat</li>
   <li>🛡️ Built-in admin check for smooth installs</li>
 </ul>
+
+<h2 align="center">🛠️│ Installation Steps</h2>
+
+<p align="center">
+  <strong>Another thing that makes this script great is how simple I made it to install it. Here's how:</strong><br><br>
+  
+  1) **Download the [Latest Release](PLACEHOLDER)**<br>
+  2) **Run the script.**<br>
+  
+  <span style="color: red; font-weight: bold; display: block; text-align: center; margin-top: 10px;">⚠️ Some releases may not be stable and could break your device. It is recommended you stay with versions marked as "Stable."</span>
+</p>
+
+
+
 
 <h2 align="center">📌│ Disclaimer</h2>
 
