@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/github/downloads/Twc-Official/Driver-Updater/total?color=purple&label=downloads&logo=github&style=flat-square&labelColor=black" alt="downloads">
   <img src="https://img.shields.io/github/stars/Twc-Official/Driver-Updater?color=purple&label=stars&logo=github&style=flat-square&labelColor=black" alt="stars">
   <img src="https://img.shields.io/github/issues/Twc-Official/Driver-Updater?color=purple&label=issues&logo=github&style=flat-square&labelColor=black" alt="issues">
-  <img src="https://img.shields.io/github/license/Twc-Official/Driver-Updater?color=purple&label=license&logo=github&style=flat-square&labelColor=black" alt="license">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="license">
   <img src="https://img.shields.io/github/last-commit/Twc-Official/Driver-Updater?color=purple&label=last%20update&logo=github&style=flat-square&labelColor=black" alt="last-commit">
   <img src="https://img.shields.io/badge/Built%20with-PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white&labelColor=black" alt="powershell">
   <img src="https://img.shields.io/github/followers/Twc-Official?label=followers&color=purple&logo=github&style=flat-square&labelColor=black" alt="followers">
