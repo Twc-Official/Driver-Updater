@@ -14,7 +14,6 @@
   <img src="https://img.shields.io/badge/Made%20with%20❤️%20by-Twc--Official-purple?style=flat-square&labelColor=black" alt="made-by">
 </p>
 
----
 
 <p align="center" id="description">
   💡 Tired of Windows' Device Manager pretending it knows how to update drivers?<br><br>
@@ -24,7 +23,6 @@
   <strong>⚠️ Use at your own risk. Always back up your system before updating drivers.</strong>
 </p>
 
----
 
 <h2 align="center">📸│ Project Screenshots</h2>
 
@@ -34,7 +32,6 @@
   <img src="https://cdn.tagbox.io/assets/67f003efb6c7200011b116b8/c947b9fc-ef3a-44f4-accb-f6da15bb3ca9---image_2025-04-04_172620638.png" alt="screenshot-3" width="400" style="border-radius: 10px; margin: 5px;">
 </p>
 
----
 
 <h2 align="center">🧐│ Features</h2>
 
@@ -47,7 +44,6 @@
   <li>🛡️ Built-in admin check for smooth installs</li>
 </ul>
 
----
 
 <h2 align="center">🛠️│ Installation Steps</h2>
 
@@ -63,36 +59,37 @@
 <p align="center">
   This process may seem a bit technical, so follow each step carefully.
 
-  ### 📌 Step 1: Open PowerShell as Administrator
+  <h3 align="center">📌 Step 1: Open PowerShell as Administrator</h3>
 
-  Right-click the **Start Menu**, select <strong>"Windows PowerShell (Admin)"</strong> or search for "PowerShell", then right-click and choose <strong>"Run as administrator"</strong>.
+  <p align="center">Right-click the **Start Menu**, select <strong>"Windows PowerShell (Admin)"</strong> or search for "PowerShell", then right-click and choose <strong>"Run as administrator"</strong>.</p>
 
-  ### 📌 Step 2: Check Your Execution Policy
+  <h3 align="center">📌 Step 2: Check Your Execution Policy</h3>
 
-Run the following command in PowerShell:
+<p align="center">Run the following command in PowerShell:</p>
 
 ``` PowerShell
 Get-ExecutionPolicy
 ```
-If it returns Restricted, proceed to the next step. If not, go to step 4.
+<p> If it returns Restricted, proceed to the next step. If not, go to step 4. </p>
 
-### 📌 Step 3: Temporarily Allow Script Execution
+<h3 align="center">📌 Step 3: Temporarily Allow Script Execution</h3>
 
-Run this command to allow scripts during your current session:
+<p align="center">Run this command to allow scripts during your current session:</p>
 
 ``` PowerShell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
 
-Remember to Enter "Y."
+<p align="center">Remember to Enter "Y."</p>
 
-### 📌 Step 4: Run the Script
-Assuming your script is in your Downloads folder and named driver_updater.ps1, run:
+<h3 align="center">📌 Step 4: Run the Script</h3>
+<p align="center">Assuming your script is in your Downloads folder and named driver_updater.ps1, run:</p>
+
 ``` PowerShell
 & "$env:USERPROFILE\Downloads\driver_updater.ps1"
 ```
 
-<strong> Well done! Now, the code should work as intended. Enjoy! </strong>
+<p align="center"><strong> Well done! Now, the code should work as intended. Enjoy! </strong></p>
 
 </p>
 
