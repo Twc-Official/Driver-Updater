@@ -58,7 +58,41 @@
   <strong>⚠️ Warning: Releases Marked "UNSTABLE" can be dangerous and should be run with extreme caution. Only download versions marked as "Stable."</strong>
 </p>
 
----
+<h2 align="center">🛠️│ Running This Program Steps</h2>
+
+<p align="center">
+  This process may seem a bit technical, so follow each step carefully.
+
+  ### 📌 Step 1: Open PowerShell as Administrator
+
+  Right-click the **Start Menu**, select <strong>"Windows PowerShell (Admin)"</strong> or search for "PowerShell", then right-click and choose <strong>"Run as administrator"</strong>.
+
+  ### 📌 Step 2: Check Your Execution Policy
+
+Run the following command in PowerShell:
+
+``` PowerShell
+Get-ExecutionPolicy
+```
+If it returns Restricted, proceed to the next step. If not, go to step 4.
+
+### 📌 Step 3: Temporarily Allow Script Execution
+
+Run this command to allow scripts during your current session:
+
+``` PowerShell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+Remember to Enter "Y."
+
+### 📌 Step 4: Run the Script
+Assuming your script is in your Downloads folder and named driver_updater.ps1, run:
+``` PowerShell
+& "$env:USERPROFILE\Downloads\driver_updater.ps1"
+```
+<strong> Well done! Now, the code should work as intended. Enjoy! </strong>
+
+</p>
 
 <h2 align="center">📌│ Disclaimer</h2>
 
@@ -68,7 +102,6 @@
   Always back up your system before making major changes — especially with drivers.
 </p>
 
----
 
 <h2 align="center">👨‍💻│ Made by <a href="https://github.com/Twc-Official">@Twc-Official</a></h2>
 
