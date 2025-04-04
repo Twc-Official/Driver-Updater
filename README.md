@@ -49,15 +49,12 @@
 
 <h2 align="center">🛠️│ Installation Steps</h2>
 
-<p align="center">
-  <strong>Another thing that makes this script great is how simple I made it to install it. Here's how:</strong><br><br>
-  
-  1) **Download the [Latest Release](PLACEHOLDER)**<br>
-  2) **Run the script.**<br>
-  
-  <span style="color: red; font-weight: bold; display: block; text-align: center; margin-top: 10px;">⚠️ Some releases may not be stable and could break your device. It is recommended you stay with versions marked as "Stable."</span>
+<p align="center" id="description">
+  Another amazing feature is how easy this code is to download, here's how; <br>
+  1) Download <strong><a href="https://github.com/Twc-Official">the latest release.</a></strong><br>
+  2) Run it. Yes, it's that simple. <br>
+  <strong>⚠️ Warning: Releases Marked "UNSTABLE" can be dangerous and should be run with extreme caution. As the developer of this project, I recommend you only download releases marked as "Stable."</strong>
 </p>
-
 
 
 
