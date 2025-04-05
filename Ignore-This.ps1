@@ -1,11 +1,5 @@
-# Hey! This script is designed to help you update your drivers on Windows, as we all know how terrible the device manager Microsoft provides is.
-# It scans for installed drivers, checks for available updates, and allows you to update them easily.
-# It also provides a verbose logging option to help you troubleshoot any issues that may arise during the process.
-
-# This script is intended for showing off my code skill. Use it at your own risk. Always back up your system before making changes to drivers, seriously.
-## If any damages happen to your system, I am not responsible for it. You are using this script at your own risk.
-
-# So I've found out that using the execution policy does not even work, because the code itself can't even run :P
+# Ignore this - Since I can't find a way for Github to show the language charts for the Releases, I have to resort to this :(
+## This is a really old version of the script (I think)
 
 param (
     [switch]$VerboseLog
