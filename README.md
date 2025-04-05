@@ -1,4 +1,4 @@
-<h1 align="center" id="title">🚀 Windows Driver Updater</h1>
+<h1 align="center" id="title">🪛│ Windows Driver Updater │🪛</h1>
 
 <p align="center">
   <img src="https://socialify.git.ci/Twc-Official/Driver-Updater/image?custom_description=This+script+is+designed+to+help+you+update+your+drivers+on+Windows%2C+because+we+all+know+how+terrible+%22Device+Manager%22+is.&amp;description=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Signal&amp;theme=Dark" alt="project-image" style="border-radius: 12px;">
@@ -56,6 +56,8 @@
 
 <h2 align="center">🛠️│ Running This Program Steps</h2>
 
+<h3 align="center">Option 1: slower and more annoying</h3>
+
 <p align="center">
   This process may seem a bit technical, so follow each step carefully.
 
@@ -88,6 +90,17 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ``` PowerShell
 & "$env:USERPROFILE\Downloads\driver_updater.ps1"
 ```
+<p align="center"><strong> Well done! Now, the code should work as intended. Enjoy! </strong></p>
+<h1></h1>
+
+<h3 align="center">Option 2: Faster and easier</h3>
+<h3 align="center">📌 Step 1: Download The .bat file.</h3>
+<p align="center"><strong><a href="https://github.com/Twc-Official/Driver-Updater/blob/main/StarterAlternative.Bat">You can find it by clicking here.</a></strong></p>
+
+<h3 align="center">📌 Step 2: Put it in the same folder as the main code is.</h3>
+<p align="center">For example, If driver_updater.ps1 is in C:\Users\USERNAME\OneDrive\Desktop then put the .bat there.</p>
+
+<h3 align="center">📌 Step 3: Run the .bat.</h3>
 
 <p align="center"><strong> Well done! Now, the code should work as intended. Enjoy! </strong></p>
 
