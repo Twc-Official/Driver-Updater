@@ -55,45 +55,7 @@
 </p>
 
 <h2 align="center">🛠️│ Running This Program Steps</h2>
-
-<h3 align="center">Option 1: slower and more annoying</h3>
-
 <p align="center">
-  This process may seem a bit technical, so follow each step carefully.
-
-  <h3 align="center">📌 Step 1: Open PowerShell as Administrator</h3>
-
-  <p align="center">Right-click the **Start Menu**, select <strong>"Windows PowerShell (Admin)"</strong> or search for "PowerShell", then right-click and choose <strong>"Run as administrator"</strong>.</p>
-
-  <h3 align="center">📌 Step 2: Check Your Execution Policy</h3>
-
-<p align="center">Run the following command in PowerShell:</p>
-
-``` PowerShell
-Get-ExecutionPolicy
-```
-<p> If it returns Restricted, proceed to the next step. If not, go to step 4. </p>
-
-<h3 align="center">📌 Step 3: Temporarily Allow Script Execution</h3>
-
-<p align="center">Run this command to allow scripts during your current session:</p>
-
-``` PowerShell
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-```
-
-<p align="center">Remember to Enter "Y."</p>
-
-<h3 align="center">📌 Step 4: Run the Script</h3>
-<p align="center">Assuming your script is in your Downloads folder and named driver_updater.ps1, run:</p>
-
-``` PowerShell
-& "$env:USERPROFILE\Downloads\driver_updater.ps1"
-```
-<p align="center"><strong> Well done! Now, the code should work as intended. Enjoy! </strong></p>
-<h1></h1>
-
-<h3 align="center">Option 2: Faster and easier</h3>
 <h3 align="center">📌 Step 1: Download The .bat file.</h3>
 <p align="center"><strong><a href="https://github.com/Twc-Official/Driver-Updater/blob/main/StarterAlternative.Bat">You can find it by clicking here.</a></strong></p>
 
